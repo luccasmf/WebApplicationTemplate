@@ -18,7 +18,7 @@ namespace WebApplicationTemplate.Controllers
             _accessManager = accessManager;
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         public IActionResult Login([FromBody]User usuario)
         {
            
